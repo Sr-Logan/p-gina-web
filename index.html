@@ -35,6 +35,8 @@
         <h1>Conceito de Estratégia</h1>
         <h2- Exemplo de Recruta: ></h2->
     </header>
+
+<article>
      <main>
        <p> <img src="image.png" alt="imagem inicial"</p>
        <div>
@@ -48,6 +50,63 @@
     <p>-não dorme, não, 05! Se o senhor deixar essa granada cair, o senhor vai explodir o turno inteiro.</p>
     <p> -O senhor vai dormir, senhor 05?</p>
 </div>
+
+</article>
+
+<article>
+    <main>
+      <p> <img src="image.png" alt="imagem inicial"</p>
+      <div>
+
+
+   <p> -conceito de estratégia, em grego "strateegia"</p>
+   <p> -em latim "strategi"</p>
+   <p> -francês "strategié".</p>
+   <p> essa fala nos ensina a palavra em varios idiomas, mas a continuação do dialogo entrega a emoção de nosso recruta, o "05"</p>
+   <p>-não dorme, não, 05! Se o senhor deixar essa granada cair, o senhor vai explodir o turno inteiro.</p>
+   <p>-não dorme, não, 05! Se o senhor deixar essa granada cair, o senhor vai explodir o turno inteiro.</p>
+   <p> -O senhor vai dormir, senhor 05?</p>
+</div>
+
+</article>
+<article>
+    <main>
+      <p> <img src="image.png" alt="imagem inicial"</p>
+      <div>
+
+
+   <p> -conceito de estratégia, em grego "strateegia"</p>
+   <p> -em latim "strategi"</p>
+   <p> -francês "strategié".</p>
+   <p> essa fala nos ensina a palavra em varios idiomas, mas a continuação do dialogo entrega a emoção de nosso recruta, o "05"</p>
+   <p>-não dorme, não, 05! Se o senhor deixar essa granada cair, o senhor vai explodir o turno inteiro.</p>
+   <p>-não dorme, não, 05! Se o senhor deixar essa granada cair, o senhor vai explodir o turno inteiro.</p>
+   <p> -O senhor vai dormir, senhor 05?</p>
+</div>
+
+</article>
+
+<script>
+    const botoes = document.querySelectorAll("button");
+    
+    botoes.forEach(function (botao) {
+    let curtiu = false;
+    botao.addEventListener("click", botaoClicado);
+    function botaoClicado() {
+    console.log("fui clicado");
+    let texto = botao.querySelector("span");
+    if (curtiu === false) {
+    texto.textContent++;
+    curtiu = true;
+    } else {
+    texto.textContent--;
+    curtiu = false;
+    }
+    
+    }
+    })
+    </script>
+
     <h3> Assim o Recruta 05 explodiu todo o turno.</h3>
                   </main>
 </body>
